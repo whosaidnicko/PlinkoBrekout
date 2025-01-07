@@ -16,15 +16,10 @@ struct LoadingView: View {
             Image("logotip")
             
             ZStack {
-                Circle()
-                    .trim(from: 0, to: 0.85)
-                    .stroke(Color.white,lineWidth: 3)
-                    .frame(width: 40, height: 40)
-                    
-                        Circle()
-                            .trim(from: 0, to: animationGoing ? 1 : 0)
-                            .fill(Color.white)
-                            .frame(width: 40, height: 40)
+                Text("Loading...")
+                    .font(.system(size: 30, weight: .black, design: .default))
+                    .foregroundStyle(.white)
+                ]
                     
             }
                 .rotationEffect(.degrees(animationGoing ? 1080 : 0))
