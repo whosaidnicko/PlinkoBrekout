@@ -19,7 +19,7 @@ struct LoadingView: View {
                 Text("Loading...")
                     .font(.system(size: 30, weight: .black, design: .default))
                     .foregroundColor(.white)
-                ]
+                
                     
             }
                 .rotationEffect(.degrees(animationGoing ? 1080 : 0))
