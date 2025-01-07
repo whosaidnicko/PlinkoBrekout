@@ -18,7 +18,7 @@ struct LoadingView: View {
             ZStack {
                 Text("Loading...")
                     .font(.system(size: 30, weight: .black, design: .default))
-                    .foregroundStyle(.white)
+                    .foregroundColor(.white)
                 ]
                     
             }
